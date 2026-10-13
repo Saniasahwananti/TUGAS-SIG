@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Peta Area Polygon</name>
+    <description/>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>layer 1</name>
+      <Placemark>
+        <name>kota dki jakarta</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                106.7315566,-6.1216295,0
+                106.7265212,-6.1662327,0
+                106.7329299,-6.1903533,0
+                106.7677199,-6.1903533,0
+                106.7828261,-6.184437,0
+                106.7919814,-6.184437,0
+                106.7961013,-6.1821615,0
+                106.786946,-6.1716941,0
+                106.7951857,-6.1534893,0
+                106.7759596,-6.122995,0
+                106.7315566,-6.1216295,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>layer 2</name>
+      <Placemark>
+        <name>DIY Yogyakarta</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                110.4050614,-7.8123511,0
+                110.4105545,-7.7851393,0
+                110.4261186,-7.7833251,0
+                110.4288651,-7.7651829,0
+                110.3473831,-7.7452255,0
+                110.3180863,-7.8168862,0
+                110.3565385,-7.8295843,0
+                110.3867509,-7.8341193,0
+                110.4087235,-7.8359332,0
+                110.4050614,-7.8123511,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>layer 3</name>
+      <Placemark>
+        <name>Kota Administrasi Depok, Jawa Barat</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                106.7836941,-6.3950694,0
+                106.7960537,-6.4180421,0
+                106.7985714,-6.4507934,0
+                106.8015469,-6.450566,0
+                106.8152798,-6.4146304,0
+                106.8180264,-6.4003009,0
+                106.832446,-6.376645,0
+                106.8177975,-6.3705034,0
+                106.7903317,-6.3639067,0
+                106.7873562,-6.3782372,0
+                106.7832364,-6.3841513,0
+                106.7836941,-6.3950694,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
